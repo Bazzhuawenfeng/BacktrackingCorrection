@@ -21,4 +21,15 @@ pip install flash_attn-2.7.4.post1+cu12torch2.2cxx11abiFALSE-cp310-cp310-linux_x
 Some packages are not consistent with the original repo.
 
 ## Data position:
-Our data is available in this repo.
+Our data is available in repo: https://huggingface.co/HuggingMicah/BackTrackingDataset.
+
+Files prefixed with `llama2_chat_template` are utilized for fine-tuning the Llama 2 model, where the `instruction` field follows the system prompt style of the Llama 2 model. Similarly, files prefixed with `llama3_chat_template` serve the same purpose for fine-tuning Llama 3, adhering to its system prompt style.  
+
+The `step` in the filenames denotes the corresponding step in the document decision tree. For instance, `step1` signifies the preparation to explain the first document, `step2` corresponds to the second document, and this pattern continues for subsequent steps.  
+
+Field explanations:  
+- **instruction**: Represents the input used during the training process.  
+- **chosen_output**: Contains positive response samples (desired answers).  
+- **rejected_output**: Contains negative response samples (undesired answers).  
+- **source**: Indicates the origin or source of the question being addressed.
+
