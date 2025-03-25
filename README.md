@@ -29,7 +29,7 @@ The `step` in the filenames denotes the corresponding step in the document decis
 
 Field explanations:  
 - **instruction**: Represents the input used during the training process.  
-- **chosen_output**: Contains positive response samples (desired answers).  
-- **rejected_output**: Contains negative response samples (undesired answers).  
-- **source**: Indicates the origin or source of the question being addressed.
+- **chosen_output**: Contains positive response (desired output).  
+- **rejected_output**: Contains negative response (undesired output).  
+- **source**: Indicates the origin or source of the question.
 
