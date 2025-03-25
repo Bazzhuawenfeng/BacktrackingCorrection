@@ -18,7 +18,7 @@ wget https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1
 pip install flash_attn-2.7.4.post1+cu12torch2.2cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
 ```
 ### Notice:
-Some packages are not consistent with the original repo.
+Some packages are not consistent with the original repo. You must follow the instructions listed above.
 
 ## Data position:
 Our data is available in repo: https://huggingface.co/HuggingMicah/BackTrackingDataset.
