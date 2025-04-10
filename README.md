@@ -1,4 +1,4 @@
-# BacktrackingCorrection
+# Backtracking Correction
 ## Introduction:
 The code and data for *Training Large Language Models for Retrieval-Augmented Question Answering through Backtracking Correction* (ICLR2025).
 ## Create environments:
